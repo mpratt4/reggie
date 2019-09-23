@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- The entirety of this chatbot is considered Open Source by the author and may not be used for monetary gain by any entity -->
+
+<aiml>
+    <category>
+        <pattern>*</pattern>
+        <template>I'm sorry, I don't understand. Can you rephrase that somehow?</template>
+    </category>
+    <category>
+        <pattern>NO</pattern>
+        <template>Oh, my bad.</template>
+    </category>
+    <category>
+        <pattern>YES</pattern>
+        <template>Oh, awesome!</template>
+    </category>
+</aiml>

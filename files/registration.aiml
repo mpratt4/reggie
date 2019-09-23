@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>HOW DO I ADD A CLASS</pattern>
+        <template>You will need a Class Add/Update form. The form can be found here:
+        <link>
+          <text>Class Add/Update Form</text>
+          <url>https://www.csuchico.edu/sro/_assets/documents/add-request.pdf</url>
+        </link>
+        </template>
+    </category>
+    <category>
+        <pattern>HOW DO I DROP A CLASS</pattern>
+        <template>You will need a Class Drop form. The form can be found here:
+        <link>
+            <text>Class Drop Form</text>
+            <url>https://www.csuchico.edu/sro/_assets/documents/drop-request.pdf</url>
+        </link>
+        </template>
+    </category>
+    <category>
+        <pattern>WHEN DO I NEED TO SUBMIT IMMUNIZATIONS</pattern>
+        <template>The earlier, the better. You will see a Warning in your Student Center that will turn into a Registration Hold.
+        More information can be found here:
+        <link>
+            <text>Immunization Information</text>
+            <url>https://www.csuchico.edu/sro/forms/immunization.shtml</url>
+        </link>
+        </template>
+    </category>
+    <category>
+        <pattern>I NEED TO WITHDRAW FROM ALL MY CLASSES</pattern>
+        <template>You will need to come to SSC 110 or call 530-898-5142 ASAP</template>
+    </category>
+    <category>
+        <pattern>NEW CSU IMMUNIZATION REQUIREMENTS</pattern>
+        <template>Only first-time freshmen and transfer students coming to Chico in Fall 2020 need to complete the new requirements</template>
+    </category>
+    <category>
+        <pattern>WHAT IMMUNIZATIONS DO I NEED</pattern>
+        <template>We need proof of Measles and Rubella. Plus Hepatitis B for anyone under 19.</template>
+    </category>
+    <category>
+        <pattern>DO I NEED THE MENINGITIS VACCINATION</pattern>
+        <template>No. If you live in University Housing, it is only highly recommended.</template>
+    </category>
+    <category>
+        <pattern>MEASLES OUTBREAK IN BUTTE COUNTY</pattern>
+        <template>Check the Butte County Department of Public Health's website for details:
+        <link>
+            <text>Outbreak Information</text>
+            <url>https://www.buttecounty.net/publichealth/measles</url>
+        </link>
+        </template>
+    </category>
+    <category>
+        <pattern>HAY ALGUIEN QUE HABLE ESPANOL</pattern>
+        <template>Si, tenemos miembros del personal que pueden ayudarlo por telefono y en persona.</template>
+    </category>
+    <category>
+        <pattern>CAN I TAKE MORE THAN 21 UNITS</pattern>
+        <template>Yes, you will just need to fill out the petition and turn it into our office:
+        <link>
+            <text>Petition to Enroll in 21+ Units</text>
+            <url>https://www.csuchico.edu/sro/_assets/documents/petition-21-units.pdf</url>
+        </link>
+        </template>
+    </category>
+    <category>
+        <pattern>CAN I SIGN UP FOR CLASSES ONLINE</pattern>
+        <template>You can only sign up for classes online during your enrollment appointment and during the Open Enrollment period.</template>
+    </category>
+    <category>
+        <pattern>WHEN IS OPEN ENROLLMENT</pattern>
+        <template>The date changes each semester. For the most up-to-date information, go to the:
+        <link>
+            <text>Class Schedule</text>
+            <url>https://www.csuchico.edu/schedule/</url>
+        </link>
+        </template>
+    </category>
+    <category>
+        <pattern>WHERE CAN I SEE MY CLASS SCHEDULE</pattern>
+        <template>It will be viewable in your Student Center, which is accessed through your Portal account.</template>
+    </category>
+
+
+<!-- SYMBOLIC REDUCTIONS IN ARTIFICIAL INTELLIGENCE -->
+
+<category><pattern>* _ WITHDRAW</pattern><template><srai>I NEED TO WITHDRAW FROM ALL MY CLASSES</srai></template></category>
+<category><pattern>WITHDRAW</pattern><template><srai>I NEED TO WITHDRAW FROM ALL MY CLASSES</srai></template></category>
+<category><pattern>WHEN ARE IMMUNIZATIONS DUE</pattern><template><srai>WHEN DO I NEED TO SUBMIT IMMUNIZATIONS</srai></template></category>
+
+</aiml>

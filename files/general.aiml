@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>WHERE DO I PURCHASE A CLICKER</pattern>
+        <template>BMU Bookstore</template>
+    </category>
+    <category>
+        <pattern>WHERE IS LOST AND FOUND</pattern>
+        <template>High value items are kept at the University Police Station. Everything else is sent next door to the Information Center</template>
+    </category>
+    <category>
+        <pattern>WHERE IS THE ORION</pattern>
+        <template>The basement of Plumas Hall.</template>
+    </category>
+    <category>
+        <pattern>WHERE CAN I FILL MY WATER BOTTLE</pattern>
+        <template>Most academic buildings as well as the Bell Memorial Union (BMU) and the Student Services Center (SSC).</template>
+    </category>
+    <category>
+        <pattern>WHO DO I SEE FOR LOCKERS IN PAC FOR MUSIC</pattern>
+        <template>Jerry Snodgrass in PAC 130.</template>
+    </category>
+    <category>
+        <pattern>WHERE IS STUDY ABROAD</pattern>
+        <template>Student Services Center (SSC) Room 440</template>
+    </category>
+    <category>
+        <pattern>WHERE DO I GET MY WILDCAT ID CARD</pattern>
+        <template>At the Wildcat Card Office inside ITSS in Meriam Library, Room 142.</template>
+    </category>
+    <category>
+        <pattern>HOW DO I LOAD MONEY ON MY WILDCAT CARD</pattern>
+        <template>You can go to Student Financial Services in SSC 230, download the GET Mobile app, or go online:
+        <link>
+            <text>Wildcat ID Card Manager</text>
+            <url>https://idcard.csuchico.edu/login/ldap.php</url>
+        </link>
+        </template>
+    </category>
+    <category>
+        <pattern>WHERE ARE PRINTING SERVICES ON CAMPUS</pattern>
+        <template>Meriam Library is the central printing service for campus, but there are several other printing labs listed here:
+        <link>
+            <text>Printing Information</text>
+            <url>https://www.csuchico.edu/itss/labs/printing.shtml</url>
+        </link>
+        </template>
+    </category>
+    <category>
+        <pattern>WHERE CAN I USE MY WILDCAT DOLLARS</pattern>
+        <template>You can use them at all the places listed at the bottom of this page:
+        <link>
+            <text>Wildcat Card Info</text>
+            <url>https://www.csuchico.edu/itss/labs/printing.shtml</url>
+        </link>
+        </template>
+    </category>
+    <category>
+        <pattern>WHERE IS FINANCIAL AID</pattern>
+        <template>Student Services Center (SSC) Room 250.</template>
+    </category>
+    <category>
+        <pattern>WHERE DO I BUY LAB MANUALS</pattern>
+        <template>Professors will state exactly where to purchase them. Inquire with the Department itself for additional info.</template>
+    </category>
+    <category>
+        <pattern>HOW DO I JOIN A CLUB ON CAMPUS</pattern>
+        <template>Each club holds different application periods. Information can be obtained at Student Life and Leaderhip in BMU 220 or by going to:
+        <link>
+            <text>WildcatSync</text>
+            <url>https://csuchico.campuslabs.com/engage/</url>
+        </link>
+        </template>
+    </category>
+    
+    <!-- Symbolic Reductions in Artificial Intelligence -->
+    
+    <category><pattern>* _ PRINT ON CAMPUS</pattern><template><srai>WHERE ARE PRINTING SERVICES ON CAMPUS</srai></template></category>
+    <category><pattern>PRINT ON CAMPUS</pattern><template><srai>WHERE ARE PRINTING SERVICES ON CAMPUS</srai></template></category>
+    
+</aiml>

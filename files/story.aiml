@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+    <pattern>* _ HELP</pattern>
+    <template>
+        Enter 'ok' to receive a helpful tip on how to use this chatbot. Enter 'exit' to stop the tips.
+        <think>
+            <set name="line1">Simply ask a question how you normally would.</set>
+            <set name="line2">I'm still in the Pre-Alpha stage of development, so your inputs help me learn!</set>
+            <set name="line3">Try asking things in simple terms if an answer doesn't pop up.</set>
+            <set name="line4">While the system is set up for registration questions, you can ask general questions too.</set>
+            <set name="line5">If you need more urgent help, please call 530-898-5142 during normal business hours.</set>
+            <set name="line6">Our staff can also be reached via email at registrar@csuchico.edu.</set>
+            <set name="line7">You can also visit our office in Student Services Center (SSC) Room 110.</set>
+            <set name="line8">Our website has tons of information too!</set>
+            <set name="line9">If this information wasn't helpful, let us know! Send an email to mpratt4@csuchico.edu</set>
+            <set name="line10">END OF STORY</set>
+            <set name="topic">TELLASTORY</set>
+        </think>
+    </template>
+</category>
+
+
+
+
+<!-- tell the story - will work with stories up to 10 lines in length but can be amended -->
+
+<topic name="TELLASTORY">
+<category>
+<pattern>_</pattern>
+<template>
+<think>
+    <set name="topic">QUITSTORY</set>
+    <sr/>
+    <set name="topic">TELLASTORY</set>
+    <condition name="storycontinue">
+        <li value="NO"><set name="progress">QUIT</set></li>
+    </condition>
+    <condition name="progress">
+        <li value="1"><set name="storyline"><get name="line1"/></set><set name="progress">2</set></li>
+        <li value="2"><set name="storyline"><get name="line2"/></set><set name="progress">3</set></li>
+        <li value="3"><set name="storyline"><get name="line3"/></set><set name="progress">4</set></li>
+        <li value="4"><set name="storyline"><get name="line4"/></set><set name="progress">5</set></li>
+        <li value="5"><set name="storyline"><get name="line5"/></set><set name="progress">6</set></li>
+        <li value="6"><set name="storyline"><get name="line6"/></set><set name="progress">7</set></li>
+        <li value="7"><set name="storyline"><get name="line7"/></set><set name="progress">8</set></li>
+        <li value="8"><set name="storyline"><get name="line8"/></set><set name="progress">9</set></li>
+        <li value="9"><set name="storyline"><get name="line9"/></set><set name="progress">10</set></li>
+        <li value="10"><set name="storyline"><get name="line10"/></set><set name="progress">11</set></li>
+        <li value="QUIT"><set name="topic"></set><set name="storycontinue">YES</set></li>
+        <li><set name="storyline"><get name="line1"/></set><set name="progress">2</set></li>
+    </condition>
+    <condition name="storyline">
+        <li value="END OF STORY">
+            <set name="storyline">That's the end of the tips section!</set>
+            <set name="topic">unknown</set>
+            <set name="progress">1</set>
+            <set name="storycontinue">YES</set>
+        </li>
+    </condition>
+</think>
+<condition name="progress">
+    <li value="QUIT">Ok. I'll stop the tips.<think><set name="progress"></set></think></li>
+    <li><get name="storyline"/></li>
+</condition>
+</template>
+</category>
+</topic>
+
+
+<!-- quit out of story - in its own topic so no other part of an existing bot is affected -->
+
+<topic name="QUITSTORY">
+    <category><pattern>EXIT</pattern><template><set name="storycontinue">NO</set></template></category>
+    <category><pattern>QUIT</pattern><template><set name="storycontinue">NO</set></template></category>
+    <category><pattern>_ QUIT *</pattern><template><set name="storycontinue">NO</set></template></category>
+    <category><pattern>_ QUIT</pattern><template><set name="storycontinue">NO</set></template></category>
+    <category><pattern>STOP</pattern><template><set name="storycontinue">NO</set></template></category>
+    <category><pattern>STOP _</pattern><template><set name="storycontinue">NO</set></template></category>
+    <category><pattern>_ STOP *</pattern><template><set name="storycontinue">NO</set></template></category>
+    <category><pattern>_ STOP</pattern><template><set name="storycontinue">NO</set></template></category>
+    <category><pattern>_ NOT *</pattern><template><set name="storycontinue">NO</set></template></category>
+</topic>
+
+
+</aiml>
