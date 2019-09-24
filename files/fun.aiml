@@ -116,10 +116,10 @@
       <template>There can be only one Michael.</template>
   </category>
   <category>
-      <pattern>MY NAME IS *</pattern>
+      <pattern>^ MY NAME IS *</pattern>
       <template>
-          <think><set name="it"><star/></set></think>
-          Hey <star/>! Have we met before? Because you seem very familiar.
+          <think><set name="it"><star index="2"/></set></think>
+          Hey <star index="2"/>! Have we met before? Because you seem very familiar.
       </template>
   </category>
   
