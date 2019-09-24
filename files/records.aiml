@@ -1,4 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-	<!-- insert AIML categories here -->
+    <category>
+        <pattern>^ 800 ^</pattern>
+        <template>Professional development units are treated differently. If 'CR' is listed in the 'Grade' column, units were earned.</template>
+    </category>
+    <category>
+        <pattern>^ OFFICIAL TRANSCRIPTS TODAY ^</pattern>
+        <template>Unfortunately they take a minimum of 2-5 days to produce. Unofficial transcripts can usually be produced same day.</template>
+    </category>
+    <category>
+        <pattern>CAN I TAKE A COURSE AT ANOTHER UNIVERSITY TO MAKE UP FOR BAD GRADES AT CHICO STATE</pattern>
+        <template>No. You can have a Chico State course cover a grade received at another institution, but not the other way around.</template>
+    </category>
+    <category>
+        <pattern>^ GRADING MISTAKE ^</pattern>
+        <template>Contact the instructor and ask them to initiate a Change of Grade form to make the changes.</template>
+    </category>
+    <category>
+        <pattern>^ CANNOT REACH PROFESSOR ^</pattern>
+        <template>Reach out to the professor's Department.</template>
+    </category>
+    <category>
+        <pattern>^ NOT IN SYSTEM ^</pattern>
+        <template>It sounds like you may need to speak to our staff. Call 530-898-5142 during business hours.</template>
+    </category>
+    <category>
+        <pattern>^ CHANGE ^ MAJOR ^</pattern>
+        <template>You will need to submit a
+            <link>
+                <text>Plan Change Form</text>
+                <url>https://www.csuchico.edu/sro/_assets/documents/educational-leave.pdf</url>
+            </link>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SEMESTER ^ OFF ^</pattern>
+        <template>You will want to submit a
+            <link>
+                <text>Planned Educational Leave</text>
+                <url>https://www.csuchico.edu/sro/_assets/documents/educational-leave.pdf</url>
+            </link>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HAVE NOT RECEIVED ^</pattern>
+        <template>Our apologies! Please email registrar@csuchico.edu and a member of staff will assist you.</template>
+    </category>
 </aiml>
