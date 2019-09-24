@@ -72,6 +72,10 @@
         </link>
         </template>
     </category>
+    <category>
+        <pattern>^ MONEY ^</pattern>
+        <template>Most questions regarding money are best directed to Student Financial Services. They can be reached at 530-898-5936.</template>
+    </category>
     
     <!-- Symbolic Reductions in Artificial Intelligence -->
     
