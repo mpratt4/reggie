@@ -19,6 +19,15 @@
         </template>
     </category>
     <category>
+        <pattern>LAST * TO DROP CLASSES</pattern>
+        <template>Please consult the
+        <link>
+            <text>Academic Calendar</text>
+            <url>https://www.csuchico.edu/apss/calendar/</url>
+        </link>
+        </template>
+    </category>
+    <category>
         <pattern>WHEN DO I NEED TO SUBMIT IMMUNIZATIONS</pattern>
         <template>The earlier, the better. You will see a Warning in your Student Center that will turn into a Registration Hold.
         More information can be found here:
@@ -90,5 +99,6 @@
 <category><pattern>* _ WITHDRAW</pattern><template><srai>I NEED TO WITHDRAW FROM ALL MY CLASSES</srai></template></category>
 <category><pattern>WITHDRAW</pattern><template><srai>I NEED TO WITHDRAW FROM ALL MY CLASSES</srai></template></category>
 <category><pattern>WHEN ARE IMMUNIZATIONS DUE</pattern><template><srai>WHEN DO I NEED TO SUBMIT IMMUNIZATIONS</srai></template></category>
+<category><pattern>^ DROP ^ CLASSES ^</pattern><template><srai>^ DROP ^ CLASS ^</srai></template></category>
 
 </aiml>
