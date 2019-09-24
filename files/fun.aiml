@@ -17,14 +17,10 @@
         <pattern>What is your purpose</pattern>
         <template>My purpose is to assist with registration related questions.</template>
     </category>
-  
-    <category>
-      <pattern>MY NAME IS *</pattern>
-      <template>
-          Hi <set name="name"><star/></set>.<br/>
-          Nice to meet you.
-      </template>
-  </category>
+
+
+<!-- Symbolic Reductions in Artificial Intelligence -->
+
   <category>
       <pattern>CALL ME *</pattern>
       <template>
@@ -43,6 +39,9 @@
           <srai>My name is <star/></srai>
       </template>
   </category>
+  
+  <!-- End section on SRAI -->
+  
   
   <category>
       <pattern>MY NAME IS GREG MORALES</pattern>
@@ -107,6 +106,10 @@
   <category>
       <pattern>MY NAME IS RICHARD CARRILLO</pattern>
       <template>Oh no...am I broken?</template>
+  </category>
+  <category>
+      <pattern>MY NAME IS MAX REED</pattern>
+      <template>Hey Max! I'm afraid I don't have any food for you. Ask Michael or Evelin.</template>
   </category>
   <category>
       <pattern>MY NAME IS *</pattern>

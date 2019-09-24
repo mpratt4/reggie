@@ -15,4 +15,17 @@
         <pattern>YES</pattern>
         <template>Oh, awesome!</template>
     </category>
+    <category>
+        <pattern>HELLO</pattern>
+        <template>Hi! How can I help you?</template>
+    </category>
+
+<!-- Symbolic Reductions in Artificial Intelligence -->
+
+<category><pattern>HOWS IT GOING</pattern><template><srai>HELLO</srai></template></category>
+<category><pattern>WHATS UP</pattern><template><srai>HELLO</srai></template></category>
+<category><pattern>HOLA</pattern><template><srai>HELLO</srai></template></category>
+<category><pattern>HEY</pattern><template><srai>HELLO</srai></template></category>
+<category><pattern>HI</pattern><template><srai>HELLO</srai></template></category>
+
 </aiml>
