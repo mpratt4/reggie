@@ -101,6 +101,15 @@
             </link>
         </template>
     </category>
+    <category>
+        <pattern>^ FREE ^</pattern>
+        <template>You might be interested in free units through
+            <link>
+                <text>CSU Fully Online</text>
+                <url>https://www.csufullyonline.com/</url>
+            </link>
+        </template>
+    </category>
 
 
 <!-- SYMBOLIC REDUCTIONS IN ARTIFICIAL INTELLIGENCE -->
