@@ -46,4 +46,8 @@
         <pattern>^ HAVE NOT RECEIVED ^</pattern>
         <template>Our apologies! Please email registrar@csuchico.edu and a member of staff will assist you.</template>
     </category>
+    <category>
+        <pattern>^ CHANGE OF GRADE ^</pattern>
+        <template>You will need to talk with the instructor of the course to get your grade changed.</template>
+    </category>
 </aiml>
