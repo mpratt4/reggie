@@ -92,6 +92,15 @@
         <pattern>WHERE CAN I SEE MY CLASS SCHEDULE</pattern>
         <template>It will be viewable in your Student Center, which is accessed through your Portal account.</template>
     </category>
+    <category>
+        <pattern>^ TRANSFER ^</pattern>
+        <template>To transfer to another institution, contact the other institution. If you are transferring to Chico State, review:
+            <link>
+                <text>Transfer Student Information</text>
+                <url>https://www.csuchico.edu/admissions/apply/transfer/index.shtml</url>
+            </link>
+        </template>
+    </category>
 
 
 <!-- SYMBOLIC REDUCTIONS IN ARTIFICIAL INTELLIGENCE -->
