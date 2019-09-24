@@ -2,7 +2,7 @@
 <aiml version="2.0">
 
 <category>
-    <pattern>^ HELP</pattern>
+    <pattern>^ HELP ^</pattern>
     <template>
         Enter 'ok' to receive a helpful tip on how to use this chatbot. Enter 'exit' to stop the tips.
         <think>
