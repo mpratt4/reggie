@@ -63,5 +63,6 @@
     <!-- Symbolic Reductions in Artificial Intelligence -->
     
     <category><pattern>^ PEL ^</pattern><template><srai>^ PLANNED EDUCATIONAL LEAVE ^</srai></template></category>
+    <category><pattern>^ LEAVE OF ABSENCE ^</pattern><template><srai>^ PLANNED EDUCATIONAL LEAVE ^</srai></template></category>
     
 </aiml>
