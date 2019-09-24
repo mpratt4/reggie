@@ -19,6 +19,10 @@
         <pattern>HELLO</pattern>
         <template>Hi! How can I help you?</template>
     </category>
+    <category>
+        <pattern>^ UNDERSTAND ^</pattern>
+        <template>My understanding is a little limited as I continue to learn. Your input allows me to keep learning!</template>
+    </category>
 
 <!-- Symbolic Reductions in Artificial Intelligence -->
 
