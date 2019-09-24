@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
     <category>
-        <pattern>HOW DO I ADD A CLASS</pattern>
+        <pattern>^ ADD ^ CLASS ^</pattern>
         <template>You will need a Class Add/Update form. The form can be found here:
         <link>
           <text>Class Add/Update Form</text>
@@ -10,7 +10,7 @@
         </template>
     </category>
     <category>
-        <pattern>HOW DO I DROP A CLASS</pattern>
+        <pattern>^ DROP ^ CLASS ^</pattern>
         <template>You will need a Class Drop form. The form can be found here:
         <link>
             <text>Class Drop Form</text>
