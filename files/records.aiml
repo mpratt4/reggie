@@ -43,6 +43,15 @@
         </template>
     </category>
     <category>
+        <pattern>^ PLANNED EDUCATIONAL LEAVE ^</pattern>
+        <template>For information about the PEL, please review this document:
+            <link>
+                <text>Planned Educational Leave</text>
+                <url>https://www.csuchico.edu/sro/_assets/documents/educational-leave.pdf</url>
+            </link>
+        </template>
+    </category>
+    <category>
         <pattern>^ HAVE NOT RECEIVED ^</pattern>
         <template>Our apologies! Please email registrar@csuchico.edu and a member of staff will assist you.</template>
     </category>
@@ -50,4 +59,9 @@
         <pattern>^ CHANGE OF GRADE ^</pattern>
         <template>You will need to talk with the instructor of the course to get your grade changed.</template>
     </category>
+    
+    <!-- Symbolic Reductions in Artificial Intelligence -->
+    
+    <category><pattern>^ PEL ^</pattern><template><srai>^ PLANNED EDUCATIONAL LEAVE ^</srai></template></category>
+    
 </aiml>
