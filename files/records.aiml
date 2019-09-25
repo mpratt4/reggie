@@ -9,6 +9,15 @@
         <template>Unfortunately they take a minimum of 2-5 days to produce. Unofficial transcripts can usually be produced same day.</template>
     </category>
     <category>
+        <pattern>^ TRANSCRIPTS ^</pattern>
+        <template>Please review the webpage dedicated to Transcripts. If you can't find an answer, please email registrar@csuchico.edu for assistance.
+            <link>
+                <text>Transcripts Webpage</text>
+                <url>https://www.csuchico.edu/sro/transcript/index.shtml</url>
+            </link>
+        </template>
+    </category>
+    <category>
         <pattern>CAN I TAKE A COURSE AT ANOTHER UNIVERSITY TO MAKE UP FOR BAD GRADES AT CHICO STATE</pattern>
         <template>No. You can have a Chico State course cover a grade received at another institution, but not the other way around.</template>
     </category>
