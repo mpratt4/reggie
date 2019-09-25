@@ -80,6 +80,15 @@
         <pattern>^ MONEY ^</pattern>
         <template>Most questions regarding money are best directed to Student Financial Services. They can be reached at 530-898-5936.</template>
     </category>
+    <category>
+        <pattern>WHERE IS *</pattern>
+        <template>Please review the
+            <link>
+                <text>University Map</text>
+                <url>https://www.csuchico.edu/maps/campus/</url>
+            </link>
+        </template>
+    </category>
     
     <!-- Symbolic Reductions in Artificial Intelligence -->
     
