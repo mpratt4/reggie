@@ -39,6 +39,10 @@
       <template><sraix>WHAT IS <star/></sraix></template>
   </category>
   <category>
+      <pattern>WHO IS *</pattern>
+      <template><sraix>WHO IS <star/></sraix></template>
+  </category>
+  <category>
       <pattern>SRAIXFAILED</pattern>
       <template>
           <random>
