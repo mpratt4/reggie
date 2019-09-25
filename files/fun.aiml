@@ -205,6 +205,14 @@
   
   <!-- End Counting Mechanism Prototype -->
   
+  <!-- Begin SRAIX Prototype -->
+  <category>
+      <pattern>WHAT IS *</pattern>
+      <template><sraix>WHAT IS <star/></sraix></template>
+  </category>
+  
+  <!-- End SRAIX Prototype -->
+  
   
   
 </aiml>
