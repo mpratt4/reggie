@@ -89,6 +89,10 @@
             </link>
         </template>
     </category>
+    <category>
+        <pattern>WHERE IS ^ REGISTRAR ^</pattern>
+        <template>Our office is located in the Student Services Center, Room 110.</template>
+    </category>
     
     <!-- Symbolic Reductions in Artificial Intelligence -->
     
