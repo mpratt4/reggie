@@ -5,7 +5,15 @@
 <aiml>
     <category>
         <pattern>*</pattern>
-        <template>I'm sorry, I don't understand. Can you rephrase that somehow?</template>
+        <template>
+        <random>
+            <li>I'm sorry, I don't understand. Can you rephrase that somehow?</li>
+            <li>Apologies, I'm not sure what you mean.</li>
+            <li>Your question is beyond my knowledge at this time, perhaps you might try contacting our office?</li>
+            <li>If you rephrase in simpler terms, I might be able to assist you.</li>
+            <li>Unfortunately, my limited programming can't make sense of your entry...</li>
+        </random>
+        </template>
     </category>
     <category>
         <pattern>NO</pattern>
