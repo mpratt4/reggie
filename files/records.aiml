@@ -74,5 +74,6 @@
     <category><pattern>^ PEL ^</pattern><template><srai>^ PLANNED EDUCATIONAL LEAVE ^</srai></template></category>
     <category><pattern>^ LEAVE OF ABSENCE ^</pattern><template><srai>^ PLANNED EDUCATIONAL LEAVE ^</srai></template></category>
     <category><pattern>^ LEAVE ^</pattern><template><srai>^ PLANNED EDUCATIONAL LEAVE ^</srai></template></category>
+    <category><pattern>^ TRANSCRIPT ^</pattern><template><srai>^ TRANSCRIPTS ^</srai></template></category>
     
 </aiml>
