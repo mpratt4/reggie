@@ -26,7 +26,7 @@
         <template>Contact the instructor and ask them to initiate a Change of Grade form to make the changes.</template>
     </category>
     <category>
-        <pattern>^ CANNOT REACH PROFESSOR ^</pattern>
+        <pattern>^ CAN NOT REACH ^ PROFESSOR ^</pattern>
         <template>Reach out to the professor's Department.</template>
     </category>
     <category>
