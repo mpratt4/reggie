@@ -6,7 +6,11 @@
     </category>
     <category>
         <pattern>WHERE IS LOST AND FOUND</pattern>
-        <template>High value items are kept at the University Police Station. Everything else is sent next door to the Information Center</template>
+        <template>High value items are kept at the University Police Station. Everything else is sent next door to the Information Center.</template>
+    </category>
+    <category>
+        <pattern>I LOST MY *</pattern>
+        <template>I'm sorry you lost your <star/>. Try stopping by Lost and Found on campus to see if they have it.</template>
     </category>
     <category>
         <pattern>WHERE IS THE ORION</pattern>
