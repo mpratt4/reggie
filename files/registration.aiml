@@ -132,5 +132,6 @@
 <category><pattern>WHEN ARE IMMUNIZATIONS DUE</pattern><template><srai>WHEN DO I NEED TO SUBMIT IMMUNIZATIONS</srai></template></category>
 <category><pattern>^ DROP ^ CLASSES ^</pattern><template><srai>^ DROP ^ CLASS ^</srai></template></category>
 <category><pattern>^ IMMUNIZATIONS ^</pattern><template><srai>^ IMMUNIZATION ^</srai></template></category>
+<category><pattern>WHEN IS ^</pattern><template><srai>WHEN CAN I ^</srai></template></category>
 
 </aiml>
