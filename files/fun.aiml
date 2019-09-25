@@ -118,19 +118,19 @@
   <category>
       <pattern>^ MY NAME IS *</pattern>
       <template>
-          <think><set name="it"><star index="2"/></set></think>
+          <think><set name="username"><star index="2"/></set></think>
           Hey <star index="2"/>! Have we met before? Because you seem very familiar.
       </template>
   </category>
   <category>
       <pattern>WHAT IS MY NAME</pattern>
-      <template>Your name is <get name ="it"/>, did you think I forgot already?</template>
+      <template>Your name is <get name ="username"/>, did you think I forgot already?</template>
   </category>
   
   <category>
       <pattern>TELL ME ABOUT *</pattern>
       <template>
-          <think><set name="it"><star/></set></think>
+          <think><set name="subject"><star/></set></think>
           Here is some information about <star/>
           <button>
               <text>Click here</text>
@@ -141,7 +141,7 @@
   <category>
       <pattern>TELL ME ABOUT IT</pattern>
       <template>
-          <condition name="it">
+          <condition name="subject">
               <li value="*"><srai>Tell me about <get name="it"/></srai></li>
               <li>Tell you about what?</li>
           </condition>
@@ -152,7 +152,7 @@
   <category>
       <pattern>WHAT IS THE WEATHER IN *</pattern>
       <template>
-          <think><set name="it"><star/></set></think>
+          <think><set name="weather"><star/></set></think>
           I hope it's a nice day in <star/>.
           <button>
               <text>Click here for the forecast</text>
@@ -163,7 +163,7 @@
   <category>
       <pattern>WHAT IS THE WEATHER IN</pattern>
       <template>
-          <condition name="it">
+          <condition name="weather">
               <li value="*"><srai>What is the weather in <get name="it"/></srai></li>
               <li>The weather where?</li>
           </condition>
