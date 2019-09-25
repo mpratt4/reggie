@@ -30,7 +30,7 @@
         <template>Reach out to the professor's Department.</template>
     </category>
     <category>
-        <pattern>^ NOT IN SYSTEM ^</pattern>
+        <pattern>^ NOT IN ^ SYSTEM ^</pattern>
         <template>It sounds like you may need to speak to our staff. Call 530-898-5142 during business hours.</template>
     </category>
     <category>
