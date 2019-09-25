@@ -119,6 +119,10 @@
             </link>
         </template>
     </category>
+    <category>
+        <pattern>^ HOLD ^</pattern>
+        <template>Due to FERPA regulations I can't disclose that information in this format. Please call 530-898-5142 for assistance.</template>
+    </category>
 
 
 <!-- SYMBOLIC REDUCTIONS IN ARTIFICIAL INTELLIGENCE -->
