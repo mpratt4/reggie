@@ -122,6 +122,10 @@
           Hey <star index="2"/>! Have we met before? Because you seem very familiar.
       </template>
   </category>
+  <category>
+      <pattern>WHAT IS MY NAME</pattern>
+      <template>Your name is <get name ="it"/>, did you think I forgot already?</template>
+  </category>
   
   <category>
       <pattern>TELL ME ABOUT *</pattern>
