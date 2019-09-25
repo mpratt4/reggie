@@ -80,7 +80,7 @@
         <template>You can only sign up for classes online during your enrollment appointment and during the Open Enrollment period.</template>
     </category>
     <category>
-        <pattern>WHEN IS OPEN ENROLLMENT</pattern>
+        <pattern>^ ENROLLMENT ^</pattern>
         <template>The date changes each semester. For the most up-to-date information, go to the:
         <link>
             <text>Class Schedule</text>
