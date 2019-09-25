@@ -17,11 +17,11 @@
         </template>
     </category>
     <category>
-        <pattern>^ NO ^</pattern>
+        <pattern>NO ^</pattern>
         <template>Oh, my bad.</template>
     </category>
     <category>
-        <pattern>^ YES ^</pattern>
+        <pattern>YES ^</pattern>
         <template>Oh, awesome!</template>
     </category>
     <category>
