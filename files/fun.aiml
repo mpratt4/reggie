@@ -166,10 +166,44 @@
       </template>
   </category>
   
+  <!-- Counting Mechanism Prototype -->
+  <category>
+      <pattern>COUNT TO <set>number</set></pattern>
+      <template>
+          <think><set name="count">0</set></think>
+          <condition name="count">
+              <li><value><star/></value></li>
+              <li>
+                  <set name="count"><map><name>successor</name><get name="count"/></map></set> <loop/>
+              </li>
+          </condition>
+      </template>
+  </category>
+  <category>
+      <pattern>NTH <set>number</set> *</pattern>
+      <template>
+          <think>
+              <set name="nth"><star/></set>
+              <set name="count">1</set>
+              <set name="letters"><explode><star index="2"/></explode></set>
+          </think>
+          <condition>
+              <li><name>letters</name><value>undefined</value>
+              <star index="2"/> has only <map><name>predecessor</name><get name="count"/></map> letters.</li>
+              <li><name>count</name><value><get name="nth"/></value>
+              The <map><name>number2ordinal</name><star/></map> letter is <srai>FIRSTLETTER <get name="letters"/></srai></li>
+              <li>
+                  <think>
+                      <set name="count"><map><name>successor</name><get name="count"/></map></set>
+                      <set name="letters"><srai>REMAININGLETTERS <get name="letters"/></srai></set>
+                  </think>
+                  <loop/>
+              </li>
+          </condition>
+      </template>
+  </category>
   
-  
-  
-  
+  <!-- End Counting Mechanism Prototype -->
   
   
   
