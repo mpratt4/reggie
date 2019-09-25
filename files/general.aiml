@@ -93,10 +93,15 @@
         <pattern>WHERE IS ^ REGISTRAR ^</pattern>
         <template>Our office is located in the Student Services Center, Room 110.</template>
     </category>
+    <category>
+        <pattern>^ HOURS ^</pattern>
+        <template>Our office is open Monday through Friday from 8am to 5pm. Summer hours are Monday through Thursday from 7am to 5:30pm. Holidays may affect these hours.</template>
+    </category>
     
     <!-- Symbolic Reductions in Artificial Intelligence -->
     
     <category><pattern>* _ PRINT ON CAMPUS</pattern><template><srai>WHERE ARE PRINTING SERVICES ON CAMPUS</srai></template></category>
     <category><pattern>PRINT ON CAMPUS</pattern><template><srai>WHERE ARE PRINTING SERVICES ON CAMPUS</srai></template></category>
+    <category><pattern>^ OPEN ^</pattern><template><srai>^ HOURS ^</srai></template></category>
     
 </aiml>
