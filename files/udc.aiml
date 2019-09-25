@@ -37,6 +37,16 @@
       <pattern>WHAT IS *</pattern>
       <template><sraix>WHAT IS <star/></sraix></template>
   </category>
+  <category>
+      <pattern>SRAIXFAILED</pattern>
+      <template>
+          <random>
+              <li>I am unable to answer.</li>
+              <li>I asked another robot, but they did not know.</li>
+              <li>Try asking me a different way.</li>
+          </random>
+      </template>
+  </category>
   
   <!-- End SRAIX Prototype -->
 
