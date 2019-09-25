@@ -10,6 +10,15 @@
         </template>
     </category>
     <category>
+        <pattern>WHEN CAN I ^</pattern>
+        <template>For the most up-to-date information, please review the
+            <link>
+                <text>Class Schedule</text>
+                <url>https://www.csuchico.edu/schedule/</url>
+            </link>
+        </template>
+    </category>
+    <category>
         <pattern>^ DROP ^ CLASS ^</pattern>
         <template>You will need a Class Drop form. The form can be found here:
         <link>
