@@ -85,10 +85,10 @@
       <template>
           <think>
               <set var="hour">
-                  <date format="%I" />
+                  <date locale="en_US" timezone="-7" format="%I" />
               </set>
               <set var="ampm">
-                  <date format="%p" />
+                  <date locale="en_US" timezone="-7" format="%p" />
               </set>
           </think>
           <condition>
