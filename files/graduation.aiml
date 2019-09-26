@@ -42,4 +42,18 @@
 	        </link>
 	    </template>
 	</category>
+	<category>
+	    <pattern>^ GRADUATION ADVISOR ^</pattern>
+	    <template>Information regarding grad advising processes and advisor availability can be found here: 
+	        <link>
+	            <text>Graduation Advising</text>
+	            <url>https://www.csuchico.edu/gradadvising/</url>
+	        </link>
+	    </template>
+	</category>
+	
+	<!-- Begin SRAI -->
+	<category><pattern>^ GRAD ADVISOR ^</pattern><template><srai>^ GRADUATION ADVISOR ^</srai></template></category>
+	
+	<!-- End SRAI -->
 </aiml>
