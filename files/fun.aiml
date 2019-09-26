@@ -40,6 +40,7 @@
       </template>
   </category>
   <category><pattern># FUNCTION #</pattern><template><srai>^ PURPOSE ^</srai></template></category>
+  <category><pattern>WHO ARE YOU</pattern><template><srai>WHAT IS YOUR NAME</srai></template></category>
   
   <!-- End section on SRAI -->
   
