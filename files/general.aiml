@@ -25,8 +25,13 @@
         <template>Jerry Snodgrass in PAC 130.</template>
     </category>
     <category>
-        <pattern>WHERE IS STUDY ABROAD</pattern>
-        <template>Student Services Center (SSC) Room 440</template>
+        <pattern>^ STUDY ABROAD ^</pattern>
+        <template>Information about Study Abroad can be obtained in Student Services Center (SSC) Room 440. Or by visiting the 
+            <link>
+                <text>Study Abroad Website</text>
+                <url>https://www.csuchico.edu/studyabroad//</url>
+            </link>
+        </template>
     </category>
     <category>
         <pattern>WHERE DO I GET MY WILDCAT ID CARD</pattern>
