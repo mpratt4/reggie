@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>^ DEGREE PROGRESS REPORT DOES NOT ^ MAJOR ^</pattern>
+	    <template>Your major/minor is not declared. Submit a signed Plan Change Form to the Office of the Registrar to declare each major/minor.</template>
+	</category>
+	<category>
+	    <pattern>^ DEGREE PROGRESS REPORT ^ WRONG ^</pattern>
+	    <template>For General Education, contact Graduation Advising. For major/minor, contact your appropriate faculty advisor.</template>
+	</category>
+	<category>
+	    <pattern>WHEN ^ APPLY ^ GRADUATE ^</pattern>
+	    <template>Apply one year in advance for the term in which you will complete all degree requirements and coursework.</template>
+	</category>
+	<category>
+	    <pattern>^ RECEIVE ^ DIPLOMA ^</pattern>
+	    <template>Diplomas can take up to 12 weeks to arrive at your diploma address.</template>
+	</category>
+	<category>
+	    <pattern>^ VERIFICATION ^ DEGREE ^</pattern>
+	    <template>Once your degree is posted to your academic record, it will be visible on your Unofficial Transcript and Enrollment Verification, which are available on the Student Center.</template>
+	</category>
+	<category>
+	    <pattern>WHAT DOES THE DIPLOMA SAY</pattern>
+	    <template>Your diploma will include your degree, major, and option. Patterns and minors do not show on the diploma. The diploma size is 8.5" x 11".</template>
+	</category>
+	<category>
+	    <pattern>WHERE WAS MY DIPLOMA MAILED</pattern>
+	    <template>Chico State contracts with Michael Sutter Company for diploma printing. For more details, visit:
+	        <link>
+	            <text>Michael Sutter Co.</text>
+	            <url>https://www.michaelsutter.com/chico</url>
+	        </link>
+	    </template>
+	</category>
+	<category>
+	    <pattern>HOW CAN I GET AN EXTRA COPY OF MY DIPLOMA</pattern>
+	    <template>You can order extra copies using the 
+	        <link>
+	            <text>Diploma Replacement Form</text>
+	            <url>https://www.csuchico.edu/gradadvising/_assets/documents/replace-diploma.pdf</url>
+	        </link>
+	    </template>
+	</category>
+</aiml>
