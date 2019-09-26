@@ -115,6 +115,19 @@
   </category>
   
   <!-- End Time Output Feature -->
+  
+  <!-- DIRECTORY INFORMATION FOR STAFF -->
+  <category>
+      <pattern># EXTENSION #</pattern>
+      <template>You should be able to find the number for most staff in the Directory. If it is not listed, it is not releasable.
+          <link>
+              <text>Campus Directory</text>
+              <url>https://apps.csuchico.edu/directory/</url>
+          </link>
+      </template>
+  </category>
+  
+  <!-- END DIRECTORY INFORMATION FOR STAFF -->
 
 <!-- Symbolic Reductions in Artificial Intelligence -->
 
@@ -124,5 +137,7 @@
 <category><pattern>HEY</pattern><template><srai>HELLO</srai></template></category>
 <category><pattern>HI</pattern><template><srai>HELLO</srai></template></category>
 <category><pattern>I BELIEVE SO</pattern><template><srai>YES ^</srai></template></category>
+
+<!-- End SRAI -->
 
 </aiml>
