@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-	<!-- insert your AIML categories here -->
+
     <category>
-        <pattern>What is your name</pattern>
+        <pattern>WHAT IS YOUR NAME</pattern>
         <template>My name is Reggie! I am the official chat bot for the Office of the Registrar at Chico State!</template>
     </category>
     <category>
-        <pattern>When was Chico State founded</pattern>
+        <pattern>WHEN WAS CHICO STATE FOUNDED</pattern>
         <template>1887, come on! Give me a hard one!</template>
     </category>
     <category>
-        <pattern>Who created you</pattern>
+        <pattern>WHO CREATED YOU</pattern>
         <template>I was created by Michael Pratt in the Office of the Registrar</template>
     </category>
     <category>
-        <pattern>What is your purpose</pattern>
+        <pattern># PURPOSE #</pattern>
         <template>My purpose is to assist with registration related questions.</template>
     </category>
 
@@ -39,6 +39,7 @@
           <srai>My name is <star/></srai>
       </template>
   </category>
+  <category><pattern># FUNCTION #</pattern><template><srai>^ PURPOSE ^</srai></template></category>
   
   <!-- End section on SRAI -->
   
