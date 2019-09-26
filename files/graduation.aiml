@@ -51,6 +51,15 @@
 	        </link>
 	    </template>
 	</category>
+	<category>
+	    <pattern>WHO ARE THE GRADUATION ADVISORS</pattern>
+	    <template>Check this page out for more information: 
+	        <link>
+	            <text>Graduation Advisor Information</text>
+	            <url>https://www.csuchico.edu/gradadvising/contact/index.shtml</url>
+	        </link>
+	    </template>
+	</category>
 	
 	<!-- Begin SRAI -->
 	<category><pattern># GRAD ADVISOR #</pattern><template><srai>^ GRADUATION ADVISOR ^</srai></template></category>
