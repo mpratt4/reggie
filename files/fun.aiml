@@ -151,7 +151,7 @@
   
   
   <category>
-      <pattern>WHAT IS THE WEATHER IN *</pattern>
+      <pattern>WHAT IS THE WEATHER IN _</pattern>
       <template>
           <think><set name="weather"><star/></set></think>
           I hope it's a nice day in <star/>.
@@ -165,7 +165,7 @@
       <pattern>WHAT IS THE WEATHER IN</pattern>
       <template>
           <condition name="weather">
-              <li value="*"><srai>What is the weather in <get name="it"/></srai></li>
+              <li value="_"><srai>What is the weather in <get name="weather"/></srai></li>
               <li>The weather where?</li>
           </condition>
       </template>

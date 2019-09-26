@@ -68,6 +68,10 @@
         <pattern>^ CHANGE OF GRADE ^</pattern>
         <template>You will need to talk with the instructor of the course to get your grade changed.</template>
     </category>
+    <category>
+        <pattern>^ STUDENT ID NUMBER ^</pattern>
+        <template>Due to FERPA rules and regulations, I am unable to disclose or discuss personally identifiable information. Never release your ID or Social Security # to anyone other than trusted Chico State staff.</template>
+    </category>
     
     <!-- Symbolic Reductions in Artificial Intelligence -->
     
