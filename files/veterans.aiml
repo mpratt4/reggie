@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>^ VETERAN ^</pattern>
+	    <template>All matters pertaining to Veterans, should be directed to the Office of Veteran Affairs in SSC 330 or by calling 530-898-5911.</template>
+	</category>
+	
+	<!-- BEGIN SRAI -->
+	<category><pattern>^ VETERANS ^</pattern><template><srai>^ VETERAN ^</srai></template></category>
+	
+	<!-- END SRAI -->
+</aiml>
