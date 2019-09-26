@@ -55,6 +55,7 @@
 	<!-- Begin SRAI -->
 	<category><pattern>^ GRAD ADVISOR ^</pattern><template><srai>^ GRADUATION ADVISOR ^</srai></template></category>
 	<category><pattern>WHERE ^ APPLY ^ GRADUATION ^</pattern><template><srai>^ GRADUATION ADVISOR ^</srai></template></category>
+	<category><pattern>^ GRADUATION INFORMATION ^</pattern><template><srai>^ GRADUATION ADVISOR ^</srai></template></category>
 	
 	<!-- End SRAI -->
 </aiml>
