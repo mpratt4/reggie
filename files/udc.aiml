@@ -43,6 +43,10 @@
       <template><sraix>WHO IS <star/></sraix></template>
   </category>
   <category>
+      <pattern>WHAT TIME IS IT IN *</pattern>
+      <template><sraix>WHAT TIME IS IT IN <star/></sraix></template>
+  </category>
+  <category>
       <pattern>SRAIXFAILED</pattern>
       <template>
           <random>
