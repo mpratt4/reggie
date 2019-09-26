@@ -112,5 +112,6 @@
     <category><pattern>* _ PRINT ON CAMPUS</pattern><template><srai>WHERE ARE PRINTING SERVICES ON CAMPUS</srai></template></category>
     <category><pattern>PRINT ON CAMPUS</pattern><template><srai>WHERE ARE PRINTING SERVICES ON CAMPUS</srai></template></category>
     <category><pattern>^ OPEN ^</pattern><template><srai>^ HOURS ^</srai></template></category>
+    <category><pattern>^ PHONE ^</pattern><template><srai># CONTACT #</srai></template></category>
     
 </aiml>
