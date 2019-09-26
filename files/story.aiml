@@ -22,7 +22,10 @@
 </category>
 
 
+<!-- Begin SRAI -->
+<category><pattern>^ DIRECTORY ^</pattern><template><srai>^ HELP ^</srai></template></category>
 
+<!-- End SRAI -->
 
 <!-- tell the story - will work with stories up to 10 lines in length but can be amended -->
 
