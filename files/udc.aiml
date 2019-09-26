@@ -72,7 +72,7 @@
   
   <category>
       <pattern>TIME</pattern>
-      <template>The time is <date locale="en_US" format="%I:%M %p" jformat="h:mm a"/></template>
+      <template>The time is <date locale="en_US" timezone="-7" format="%c" jformat="h:mm a"/></template>
   </category>
   
   <category>
