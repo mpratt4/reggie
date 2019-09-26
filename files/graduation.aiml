@@ -44,7 +44,7 @@
 	</category>
 	<category>
 	    <pattern>^ GRADUATION ADVISOR ^</pattern>
-	    <template>Information regarding grad advising processes and advisor availability can be found here: 
+	    <template>Information regarding graduation processes and advisor availability can be found here: 
 	        <link>
 	            <text>Graduation Advising</text>
 	            <url>https://www.csuchico.edu/gradadvising/</url>
@@ -54,6 +54,7 @@
 	
 	<!-- Begin SRAI -->
 	<category><pattern>^ GRAD ADVISOR ^</pattern><template><srai>^ GRADUATION ADVISOR ^</srai></template></category>
+	<category><pattern>WHERE ^ APPLY ^ GRADUATION ^</pattern><template><srai>^ GRADUATION ADVISOR ^</srai></template></category>
 	
 	<!-- End SRAI -->
 </aiml>
