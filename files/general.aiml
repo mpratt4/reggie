@@ -103,7 +103,7 @@
         <template>Our office is open Monday through Friday from 8am to 5pm. Summer hours are Monday through Thursday from 7am to 5:30pm. Holidays may affect these hours.</template>
     </category>
     <category>
-        <pattern>^ CONTACT ^</pattern>
+        <pattern># CONTACT #</pattern>
         <template>Our office can be reached by calling 530-898-5142 or by emailing registrar@csuchico.edu</template>
     </category>
     
