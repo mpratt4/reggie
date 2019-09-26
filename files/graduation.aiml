@@ -43,7 +43,7 @@
 	    </template>
 	</category>
 	<category>
-	    <pattern>^ GRADUATION ADVISOR ^</pattern>
+	    <pattern># GRADUATION ADVISOR #</pattern>
 	    <template>Information regarding graduation processes and advisor availability can be found here: 
 	        <link>
 	            <text>Graduation Advising</text>
