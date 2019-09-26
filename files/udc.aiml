@@ -61,22 +61,22 @@
   
   <!-- Begin Time Output Feature -->
   <category>
-      <pattern>YEAR</pattern>
+      <pattern>^ YEAR ^</pattern>
       <template>This is <date format="%Y" /></template>
   </category>
   
   <category>
-      <pattern>MONTH</pattern>
+      <pattern>^ MONTH ^</pattern>
       <template>This is <date format="%B" /></template>
   </category>
   
   <category>
-      <pattern>TIME</pattern>
+      <pattern>^ TIME ^</pattern>
       <template>The time is <date locale="en_US" timezone="-7" format="%c" jformat="h:mm a"/></template>
   </category>
   
   <category>
-      <pattern>DATE</pattern>
+      <pattern>^ DATE ^</pattern>
       <template>Today is <date format="%B %d, %Y" /></template>
   </category>
   
