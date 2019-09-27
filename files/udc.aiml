@@ -12,7 +12,7 @@
             <li>Your input is beyond my knowledge at this time, perhaps you might try contacting our office?</li>
             <li>If you rephrase in simpler terms, I might be able to assist you.</li>
             <li>Unfortunately, my limited programming can't make sense of your entry...</li>
-            <li>Try typing 'help' for some useful tips.</li>
+            <li>Sorry, I'm not able to process that. Try typing 'help' for some useful tips.</li>
         </random>
         </template>
     </category>
