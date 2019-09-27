@@ -4,7 +4,7 @@
 <category>
     <pattern>^ HELP ^</pattern>
     <template>
-        Enter 'ok' to receive a helpful tip on how to use this chatbot. Enter 'exit' to stop the tips.
+        Type 'ok' to cycle through helpful tips on how to use this chatbot. Type 'exit' to stop the tips.
         <think>
             <set name="line1">Simply ask a question how you normally would.</set>
             <set name="line2">I'm still in the Pre-Alpha stage of development, so your inputs help me learn!</set>
