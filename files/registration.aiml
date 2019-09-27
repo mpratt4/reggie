@@ -29,7 +29,7 @@
     </category>
     <category>
         <pattern>^ BLACKBOARD ^</pattern>
-        <template>If you are having technical issues, contact ITSS at 530-898-4357. If a class hasn't been added or dropped, please wait 24 hours before contacting our office at 530-898-5142.</template>
+        <template>If you are having technical issues, contact ITSS at 530-898-4357. If a class hasn't been added or removed from Blackboard, please wait 24 hours after you see the change in the Student Center before contacting our office at 530-898-5142.</template>
     </category>
     <category>
         <pattern>LAST * TO DROP CLASSES</pattern>
