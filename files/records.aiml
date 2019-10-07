@@ -52,8 +52,8 @@
         </template>
     </category>
     <category>
-        <pattern>^ PLANNED EDUCATIONAL LEAVE ^</pattern>
-        <template>For information about the PEL, please review this document:
+        <pattern># PLANNED EDUCATIONAL LEAVE #</pattern>
+        <template>PELs can be taken for two semesters at a time, for up to four consecutive semesters. For more information about the PEL, please review this document:
             <link>
                 <text>Planned Educational Leave</text>
                 <url>https://www.csuchico.edu/sro/_assets/documents/educational-leave.pdf</url>
@@ -75,7 +75,7 @@
     
     <!-- Symbolic Reductions in Artificial Intelligence -->
     
-    <category><pattern>^ PEL ^</pattern><template><srai>^ PLANNED EDUCATIONAL LEAVE ^</srai></template></category>
+    <category><pattern># PEL #</pattern><template><srai>^ PLANNED EDUCATIONAL LEAVE ^</srai></template></category>
     <category><pattern>^ LEAVE OF ABSENCE ^</pattern><template><srai>^ PLANNED EDUCATIONAL LEAVE ^</srai></template></category>
     <category><pattern>^ LEAVE ^</pattern><template><srai>^ PLANNED EDUCATIONAL LEAVE ^</srai></template></category>
     <category><pattern>^ TRANSCRIPT ^</pattern><template><srai>^ TRANSCRIPTS ^</srai></template></category>
