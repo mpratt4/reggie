@@ -6,14 +6,14 @@
     <template>
         Type 'ok' to cycle through helpful tips on how to use this chatbot. Type 'exit' to stop the tips.
         <think>
-            <set name="line1">Simply ask a question how you normally would.</set>
-            <set name="line2">I'm still in the Pre-Alpha stage of development, so your inputs help me learn!</set>
-            <set name="line3">Try asking things in simple terms if an answer doesn't pop up.</set>
-            <set name="line4">While the system is set up for registration questions, you can ask general questions too.</set>
-            <set name="line5">If you need more urgent help, please call 530-898-5142 during normal business hours.</set>
-            <set name="line6">Our staff can also be reached via email at registrar@csuchico.edu.</set>
-            <set name="line7">You can also visit our office in Student Services Center (SSC) Room 110.</set>
-            <set name="line8">Our website has tons of information too!</set>
+            <set name="line1">Simply ask a question how you normally would. Enter any text to continue. Type 'exit' to stop tips.</set>
+            <set name="line2">I'm still in the Alpha stage of development, so your inputs help me learn! Enter any text to continue. Type 'exit' to stop tips.</set>
+            <set name="line3">Try asking things in simple terms if an answer doesn't pop up. Enter any text to continue. Type 'exit' to stop tips.</set>
+            <set name="line4">While the system is set up for registration questions, you can ask general questions too. Enter any text to continue. Type 'exit' to stop tips.</set>
+            <set name="line5">If you need more urgent help, please call 530-898-5142 during normal business hours. Enter any text to continue. Type 'exit' to stop tips.</set>
+            <set name="line6">Our staff can also be reached via email at registrar@csuchico.edu. Enter any text to continue. Type 'exit' to stop tips.</set>
+            <set name="line7">You can also visit our office in Student Services Center (SSC) Room 110. Enter any text to continue. Type 'exit' to stop tips.</set>
+            <set name="line8">Our website has tons of information too! Enter any text to continue. Type 'exit' to stop tips.</set>
             <set name="line9">If this information wasn't helpful, let us know! Send an email to mpratt4@csuchico.edu</set>
             <set name="line10">END OF STORY</set>
             <set name="topic">TELLASTORY</set>
