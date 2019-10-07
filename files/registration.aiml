@@ -52,7 +52,7 @@
     </category>
     <category>
         <pattern>I NEED TO WITHDRAW FROM ALL MY CLASSES</pattern>
-        <template>You will need to come to SSC 110 or call 530-898-5142 ASAP</template>
+        <template>You will need to come to SSC 110 or call 530-898-5142 ASAP to initiate a Term Withdrawal from the university.</template>
     </category>
     <category>
         <pattern>NEW CSU IMMUNIZATION REQUIREMENTS</pattern>
@@ -132,7 +132,7 @@
 <!-- SYMBOLIC REDUCTIONS IN ARTIFICIAL INTELLIGENCE -->
 
 <category><pattern>* _ WITHDRAW</pattern><template><srai>I NEED TO WITHDRAW FROM ALL MY CLASSES</srai></template></category>
-<category><pattern>WITHDRAW</pattern><template><srai>I NEED TO WITHDRAW FROM ALL MY CLASSES</srai></template></category>
+<category><pattern>^ WITHDRAW ^</pattern><template><srai>I NEED TO WITHDRAW FROM ALL MY CLASSES</srai></template></category>
 <category><pattern>WHEN ARE IMMUNIZATIONS DUE</pattern><template><srai>WHEN DO I NEED TO SUBMIT IMMUNIZATIONS</srai></template></category>
 <category><pattern>^ DROP ^ CLASSES ^</pattern><template><srai>^ DROP ^ CLASS ^</srai></template></category>
 <category><pattern>^ IMMUNIZATIONS ^</pattern><template><srai>^ IMMUNIZATION ^</srai></template></category>

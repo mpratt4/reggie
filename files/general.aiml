@@ -83,7 +83,7 @@
     </category>
     <category>
         <pattern>^ MONEY ^</pattern>
-        <template>Most questions regarding money are best directed to Student Financial Services. They can be reached at 530-898-5936.</template>
+        <template>Most questions regarding money, tuition, or fees are best directed to Student Financial Services. They can be reached at 530-898-5936.</template>
     </category>
     <category>
         <pattern>WHERE IS *</pattern>
@@ -113,5 +113,6 @@
     <category><pattern>PRINT ON CAMPUS</pattern><template><srai>WHERE ARE PRINTING SERVICES ON CAMPUS</srai></template></category>
     <category><pattern>^ OPEN ^</pattern><template><srai>^ HOURS ^</srai></template></category>
     <category><pattern>^ PHONE ^</pattern><template><srai># CONTACT #</srai></template></category>
+    <category><pattern>^ TUITION ^</pattern><template><srai>^ MONEY ^</srai></template></category>
     
 </aiml>
