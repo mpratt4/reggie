@@ -20,7 +20,7 @@
         </template>
     </category>
     <category>
-        <pattern>WHAT COURSES ^</pattern>
+        <pattern>^ COURSES ^</pattern>
         <template>A full listing of courses can be found in the 
             <link>
                 <text>Class Schedule</text>
