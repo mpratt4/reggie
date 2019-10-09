@@ -82,9 +82,9 @@
 
 <category><pattern>HOWS IT GOING</pattern><template><srai>HELLO</srai></template></category>
 <category><pattern>WHATS UP</pattern><template><srai>HELLO</srai></template></category>
-<category><pattern>HOLA</pattern><template><srai>HELLO</srai></template></category>
-<category><pattern>HEY</pattern><template><srai>HELLO</srai></template></category>
-<category><pattern>HI</pattern><template><srai>HELLO</srai></template></category>
+<category><pattern>^ HOLA ^</pattern><template><srai>HELLO</srai></template></category>
+<category><pattern>^ HEY ^</pattern><template><srai>HELLO</srai></template></category>
+<category><pattern>^ HI ^</pattern><template><srai>HELLO</srai></template></category>
 <category><pattern>I BELIEVE SO</pattern><template><srai>YES ^</srai></template></category>
 
 <!-- End SRAI -->
