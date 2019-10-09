@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
     <category>
+	    <pattern>^ ENROLL ^</pattern>
+	    <template>
+	        <ul>
+	            <li>If you are an active student at Chico State, please review your Student Center for when you can enroll.</li>
+	            <li>If you are currently on a PEL, please check to make sure you received an email to enroll, otherwise contact our office at 530-898-5142.</li>
+	            <li>If you are not a student, but want to attend Chico State, please contact Admissions at 530-898-6322.</li>
+            </ul>
+	    </template>
+	</category>
+	<category>
         <pattern>^ ADD ^ CLASS ^</pattern>
         <template>You will need a Class Add/Update form. The form can be found here:
         <link>
