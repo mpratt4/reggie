@@ -10,6 +10,15 @@
         </template>
     </category>
     <category>
+        <pattern>WHAT COURSES ^</pattern>
+        <template>A full listing of courses can be found in the 
+            <link>
+                <text>Class Schedule</text>
+                <url>http://www.csuchico.edu/schedule/</url>
+            </link>
+        </template>
+    </category>
+    <category>
         <pattern>WHEN CAN I ^</pattern>
         <template>For the most up-to-date information, please review the
             <link>
