@@ -12,7 +12,7 @@
 	</category>
 	<category>
         <pattern>^ ADD ^ CLASS ^</pattern>
-        <template>You will need a Class Add/Update form. The form can be found here:
+        <template>Prior to the third week of instruction, you can add classes in your Student Center. Starting the third week you will need a Class Add/Update form. The form can be found here:
         <link>
           <text>Class Add/Update Form</text>
           <url>https://www.csuchico.edu/sro/_assets/documents/add-request.pdf</url>
@@ -39,7 +39,7 @@
     </category>
     <category>
         <pattern>^ DROP ^ CLASS ^</pattern>
-        <template>You will need a Class Drop form. The form can be found here:
+        <template>Prior to the third week of instruction, you can drop classes in your Student Center. Starting the third week you will need a Class Drop form. The form can be found here:
         <link>
             <text>Class Drop Form</text>
             <url>https://www.csuchico.edu/sro/_assets/documents/drop-request.pdf</url>
