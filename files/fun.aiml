@@ -106,8 +106,16 @@
       <template>We agreed on this, you are Mike. Too many Michaels in this office...</template>
   </category>
   <category>
-      <pattern>MY NAME IS RICHARD CARRILLO</pattern>
+      <pattern>MY NAME IS RICH CARRILLO</pattern>
       <template>Oh no...am I broken?</template>
+  </category>
+  <category>
+      <pattern>MY NAME IS HOLLY FERGUSON</pattern>
+      <template>Don't judge me on my limited knowledge of APSS...I'm still learning...</template>
+  </category>
+  <category>
+      <pattern>MY NAME IS LARRY LANGWELL</pattern>
+      <template>Ah! The leader of our Veterans!</template>
   </category>
   <category>
       <pattern>MY NAME IS MAX REED</pattern>
