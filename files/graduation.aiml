@@ -60,6 +60,15 @@
 	        </link>
 	    </template>
 	</category>
+	<category>
+	    <pattern># GRADUATION #</pattern>
+	    <template>Information regarding graduation can be found here:
+	        <link>
+	            <text>Graduation Information</text>
+	            <url>https://www.csuchico.edu/gradadvising/graduation-application.shtml</url>
+	        </link>
+	    </template>
+	</category>
 	
 	<!-- Begin SRAI -->
 	<category><pattern># GRAD ADVISOR #</pattern><template><srai>^ GRADUATION ADVISOR ^</srai></template></category>
