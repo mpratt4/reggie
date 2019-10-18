@@ -99,8 +99,8 @@
         <template>Si, tenemos miembros del personal que pueden ayudarlo por telefono y en persona.</template>
     </category>
     <category>
-        <pattern>CAN I TAKE MORE THAN 21 UNITS</pattern>
-        <template>Yes, you will just need to fill out the petition and turn it into our office:
+        <pattern>^ 21 UNITS ^</pattern>
+        <template>You can take more than 21 units a semester, you will just need to fill out the petition and turn it into our office:
         <link>
             <text>Petition to Enroll in 21+ Units</text>
             <url>https://www.csuchico.edu/sro/_assets/documents/petition-21-units.pdf</url>
