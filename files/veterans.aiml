@@ -2,7 +2,7 @@
 <aiml version="2.0">
 	<category>
 	    <pattern>^ VETERAN ^</pattern>
-	    <template>Please go to the Veterans Affairs website for more information, stop by the VA Office in SSC 330, or call 530-898-5911.
+	    <template>Please go to the Veterans Affairs website, stop by the VA Office in SSC 330, or call 530-898-5911 for more information.
 	        <link>
 	            <text>Veterans Affairs Website</text>
 	            <url>https://www.csuchico.edu/va/</url>
