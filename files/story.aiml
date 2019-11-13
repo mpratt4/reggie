@@ -2,7 +2,7 @@
 <aiml version="2.0">
 
 <category>
-    <pattern>^ HELP ^</pattern>
+    <pattern>^ MENU ^</pattern>
     <template>
         Type 'ok' to cycle through helpful tips on how to use this chatbot. Type 'exit' to stop the tips.
         <think>
