@@ -38,6 +38,10 @@
         <pattern>^ UNDERSTAND ^</pattern>
         <template>My understanding is a little limited as I continue to learn. Your input allows me to keep learning!</template>
     </category>
+    <category>
+        <pattern>^ HELP ^</pattern>
+        <template>For me to help you, I will need you to ask a question, word, or phrase to trigger my memory.  Things like "add a class", "veterans", or "graduation".</template>
+    </category>
       
   <!-- Begin SRAIX Prototype -->
   <category>
