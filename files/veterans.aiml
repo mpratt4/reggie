@@ -2,7 +2,12 @@
 <aiml version="2.0">
 	<category>
 	    <pattern>^ VETERAN ^</pattern>
-	    <template>All matters pertaining to Veterans, should be directed to the Office of Veteran Affairs in SSC 330 or by calling 530-898-5911.</template>
+	    <template>Please go to the Veterans Affairs website for more information, stop by the VA Office in SSC 330, or call 530-898-5911.
+	        <link>
+	            <text>Veterans Affairs Website</text>
+	            <url>https://www.csuchico.edu/va/</url>
+	        </link>
+	    </template>
 	</category>
 	
 	<!-- BEGIN SRAI -->
