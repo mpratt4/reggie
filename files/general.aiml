@@ -85,6 +85,9 @@
         <pattern>^ MONEY ^</pattern>
         <template>Most questions regarding money, tuition, or fees are best directed to Student Financial Services. They can be reached at 530-898-5936.</template>
     </category>
+    
+    <!-- Location Based Search Inquiries Section -->
+    
     <category>
         <pattern>WHERE IS *</pattern>
         <template>Please review the
@@ -98,6 +101,9 @@
         <pattern>WHERE IS ^ REGISTRAR ^</pattern>
         <template>Our office is located in the Student Services Center, Room 110.</template>
     </category>
+    
+    <!-- End Location Based Search Inquiries Section -->
+    
     <category>
         <pattern>^ HOURS ^</pattern>
         <template>Our office is open Monday through Friday from 8am to 5pm. Summer hours are Monday through Thursday from 7am to 5:30pm. Holidays may affect these hours.</template>
