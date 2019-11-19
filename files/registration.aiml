@@ -156,5 +156,7 @@
 <category><pattern>^ DROP ^ CLASSES ^</pattern><template><srai>^ DROP ^ CLASS ^</srai></template></category>
 <category><pattern>^ IMMUNIZATIONS ^</pattern><template><srai>^ IMMUNIZATION ^</srai></template></category>
 <category><pattern>WHEN IS ^</pattern><template><srai>WHEN CAN I ^</srai></template></category>
+<category><pattern>^ CLASS ^</pattern><template><srai>^ ADD ^ CLASS ^</srai></template></category>
+<category><pattern>^ CLASSES ^</pattern><template><srai>^ ADD ^ CLASS ^</srai></template></category>
 
 </aiml>
