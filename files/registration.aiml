@@ -70,6 +70,10 @@
         </template>
     </category>
     <category>
+        <pattern># TITER TEST #</pattern>
+        <template>You can obtain a titer test at your physician or through the Student Health Center. They are used to prove immunity to things like Measles and Rubella.</template>
+    </category>
+    <category>
         <pattern>I NEED TO WITHDRAW FROM ALL MY CLASSES</pattern>
         <template>You will need to come to SSC 110 or call 530-898-5142 ASAP to initiate a Term Withdrawal from the university.</template>
     </category>
