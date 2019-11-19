@@ -244,10 +244,10 @@
       <template>
           <think>
               <set var="hour">
-                  <date locale="en_US" timezone="-7" format="%I" />
+                  <date locale="en_US" timezone="-8" format="%I" />
               </set>
               <set var="ampm">
-                  <date locale="en_US" timezone="-7" format="%p" />
+                  <date locale="en_US" timezone="-8" format="%p" />
               </set>
           </think>
           <condition>
