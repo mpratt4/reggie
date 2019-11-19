@@ -95,6 +95,10 @@
                 <text>University Map</text>
                 <url>https://www.csuchico.edu/maps/campus/</url>
             </link>
+            <link>
+                <text>or the University Directory</text>
+                <url>https://apps.csuchico.edu/directory/</url>
+            </link>
         </template>
     </category>
     <category>
