@@ -150,6 +150,14 @@
         <pattern>^ HOLD ^</pattern>
         <template>Due to FERPA regulations I can't disclose that information in this format. Please call 530-898-5142 for assistance.</template>
     </category>
+    <category>
+        <pattern>^ LATE FEE ^</pattern>
+        <template>After Census a $10 late fee may apply to process certain forms. Exceptions may apply, call 530-898-5142 or visit Student Services Center Room 110 for assistance.</template>
+    </category>
+    <category>
+        <pattern>^ WHERE ^ HELP ^ REGISTRATION ^</pattern>
+        <template>All in-person registration help is offered during business hours in SSC 110. You can also call 530-898-5142 or email registrar@csuchico.edu for additional help.</template>
+    </category>
 
 
 <!-- SYMBOLIC REDUCTIONS IN ARTIFICIAL INTELLIGENCE -->
